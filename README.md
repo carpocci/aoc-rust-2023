@@ -1,6 +1,6 @@
 <img src="./.assets/christmas_ferris.png" width="164">
 
-# 🎄 Advent of Code {year}
+# 🎄 Advent of Code 2023
 
 Solutions for [Advent of Code](https://adventofcode.com/) in [Rust](https://www.rust-lang.org/).
 
@@ -153,7 +153,7 @@ cargo read <day>
 
 # output:
 # Loaded session cookie from "/Users/<snip>/.adventofcode.session".
-# Fetching puzzle for day 1, 2022...
+# Fetching puzzle for day 1, 2023...
 # ...the input...
 ```
 
