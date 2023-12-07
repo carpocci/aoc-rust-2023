@@ -62,9 +62,9 @@ fn solve(input: &str, part: u8) -> Option<u64> {
         let mut new_seeds = HashSet::new();
         seeds.iter().for_each(|&seed| {
             let mut found = false;
-            for i in 0..map.len() {
-                if seed >= map[i].source && seed < (map[i].source + map[i].size) {
-                    new_seeds.insert(map[i].destination + (seed - map[i].source));
+            for range in &map {
+                if seed >= range.source && seed < (range.source + range.size) {
+                    new_seeds.insert(range.destination + (seed - range.source));
                     found = true;
                     break;
                 }
