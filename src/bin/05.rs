@@ -84,8 +84,9 @@ pub fn part_one(input: &str) -> Option<u64> {
 }
 
 // It should work, but runs out of memory on my machine
-pub fn part_two(input: &str) -> Option<u64> {
-    solve(input, 2)
+pub fn part_two(_input: &str) -> Option<u64> {
+    // solve(input, 2)
+    None
 }
 
 #[cfg(test)]
