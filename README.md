@@ -24,16 +24,17 @@ Solutions for [Advent of Code](https://adventofcode.com/) in [Rust](https://www.
 
 | Day | Part 1 | Part 2 |
 | :---: | :---: | :---:  |
-| [Day 1](./src/bin/01.rs) | `58.2µs` | `929.2µs` |
-| [Day 2](./src/bin/02.rs) | `45.6µs` | `75.8µs` |
-| [Day 3](./src/bin/03.rs) | `129.8µs` | `227.3µs` |
-| [Day 4](./src/bin/04.rs) | `360.1µs` | `402.0µs` |
-| [Day 5](./src/bin/05.rs) | `32.4µs` | `-` |
-| [Day 6](./src/bin/06.rs) | `429.0ns` | `363.0ns` |
-| [Day 7](./src/bin/07.rs) | `401.0µs` | `-` |
-| [Day 8](./src/bin/08.rs) | `11.5ms` | `14.9ms` |
+| [Day 1](./src/bin/01.rs) | `54.8µs` | `911.8µs` |
+| [Day 2](./src/bin/02.rs) | `39.8µs` | `69.4µs` |
+| [Day 3](./src/bin/03.rs) | `113.8µs` | `200.5µs` |
+| [Day 4](./src/bin/04.rs) | `311.0µs` | `344.4µs` |
+| [Day 5](./src/bin/05.rs) | `25.4µs` | `-` |
+| [Day 6](./src/bin/06.rs) | `394.0ns` | `430.0ns` |
+| [Day 7](./src/bin/07.rs) | `328.5µs` | `-` |
+| [Day 8](./src/bin/08.rs) | `10.2ms` | `11.7ms` |
+| [Day 9](./src/bin/09.rs) | `293.0µs` | `304.1µs` |
 
-**Total: 29.06ms**
+**Total: 24.90ms**
 <!--- benchmarking table --->
 
 ---
@@ -211,7 +212,7 @@ Go to the leaderboard page of the year you want to track and click _Private Lead
 Go to the _Secrets_ tab in your repository settings and create the following secrets:
 
 -   `AOC_USER_ID`: Go to [this page](https://adventofcode.com/settings) and copy your user id. It's the number behind the `#` symbol in the first name option. Example: `3031`.
--   `AOC_YEAR`: the year you want to track. Example: `2021`.
+-   `AOC_YEAR`: the year you want to track. Example: `2023`.
 -   `AOC_SESSION`: an active session[^2] for the advent of code website. To get this, press F12 anywhere on the Advent of Code website to open your browser developer tools. Look in your Cookies under the Application or Storage tab, and copy out the `session` cookie.
 
 Go to the _Variables_ tab in your repository settings and create the following variable:
