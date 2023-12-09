@@ -5,7 +5,9 @@ use std::collections::HashMap;
 
 advent_of_code::solution!(8);
 
-fn parse_input(input: &str) -> Option<(Vec<usize>, HashMap<&str, Vec<&str>>, Vec<&str>)> {
+type ParsedInput<'a> = (Vec<usize>, HashMap<&'a str, Vec<&'a str>>, Vec<&'a str>);
+
+fn parse_input(input: &str) -> Option<ParsedInput> {
     let mut elements = input.split_terminator("\n\n");
     let directions: Vec<usize> = elements
         .next()?
@@ -77,7 +79,7 @@ pub fn part_two(input: &str) -> Option<u64> {
                 }
                 jumps
             })
-            .fold(1, |acc, n| lcm(acc, n)),
+            .fold(1, lcm),
     )
 }
 
